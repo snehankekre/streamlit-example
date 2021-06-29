@@ -4,7 +4,6 @@ try:
     from rdkit import Chem
     from rdkit.Chem import Draw
     from rdkit.Chem import MACCSkeys, Draw
-    st.write('Success')
+    st.write('Success!')
 except:
-    st.write('Failed')
-
+    st.write('Failed to install dependencies from packages.txt :(')
