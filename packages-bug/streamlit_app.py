@@ -4,6 +4,10 @@ import math
 import pandas as pd
 import streamlit as st
 
+from rdkit import Chem
+from rdkit.Chem import Draw
+from rdkit.Chem import MACCSkeys, Draw
+
 """
 # Welcome to Streamlit!
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
